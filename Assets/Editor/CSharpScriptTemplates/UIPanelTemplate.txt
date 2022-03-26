@@ -1,0 +1,27 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class #SCRIPTNAME# : UIPanelBase
+{
+    public override UICommon UIPanelName => UICommon.#SCRIPTNAME#;
+
+    public override PanelType PanelType => PanelType.MainPanel;
+
+    public override void OnInit(object caller)
+    {
+
+    }
+
+    public override void OnClose(object caller)
+    {
+
+    }
+
+    public override void OnShow(object caller)
+    {
+
+    }
+}

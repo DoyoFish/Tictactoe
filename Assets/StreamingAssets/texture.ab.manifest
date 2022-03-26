@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1312540940
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c8fd7652b7fa63227520bb075e1c9c01
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2ed26e3ad9f6be9c24f85f5f5b54339d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Textures/Textures/ChessBoard.png
+Dependencies: []

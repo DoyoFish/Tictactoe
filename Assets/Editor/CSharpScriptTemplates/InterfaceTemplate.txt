@@ -1,0 +1,4 @@
+public interface #SCRIPTNAME# 
+{
+    // Write Your Function Here
+}

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1822951774
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 839ec7879b09f8c27b472f91cc34af32
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Textures/Images/Chess_O.png
+- Assets/_Textures/Images/Chess_Empty.png
+- Assets/_Textures/Images/avatar_01.png
+- Assets/_Textures/Images/SettingsIcon.png
+- Assets/_Textures/Images/avatar_ai.png
+- Assets/_Textures/Images/Chess_X.png
+Dependencies: []

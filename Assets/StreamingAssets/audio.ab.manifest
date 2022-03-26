@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 419206010
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f8fe74a4b0bc80d2e22f50530abf754
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Audios/SendCard.mp3
+- Assets/Audios/Main01.mp3
+- Assets/Audios/Click.mp3
+- Assets/Audios/Skill01.mp3
+- Assets/Audios/NormalAttack.mp3
+Dependencies: []

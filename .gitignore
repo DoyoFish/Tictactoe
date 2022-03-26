@@ -1,0 +1,20 @@
+
+
+#unity genrate
+/Library
+/obj
+/Temp
+/Logs
+/Packages
+
+#vs generate
+/.vs
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp-Editor-firstpass.csproj
+Assembly-CSharp-firstpass.csproj
+*.sln
+
+#git genrate
+/.git
+
