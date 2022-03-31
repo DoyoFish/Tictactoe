@@ -114,7 +114,7 @@ public partial class UIPanelMng : MonoSingleton<UIPanelMng>
 
     private UIPanelBase GenerateUIPanelInstance(string path)
     {
-        GameObject link = Instantiate(Loader.LoadPanel(path));
+        GameObject link = Instantiate(Loader.LoadPrefab(path));
         if (!link)
         {
             return null;
@@ -192,7 +192,7 @@ public partial class UIPanelMng : MonoSingleton<UIPanelMng>
         UIPanelBase panelInstance = _appearedPanels[panelName];
         panelInstance.OnClose(caller);
         panelInstance.gameObject.SetActive(false);
-        if (pop)
+        if (pop && _panelStack.Count > 0)
         {
             Debug.LogFormat("被移出栈的Panel: {0}", _panelStack.Pop());
         }

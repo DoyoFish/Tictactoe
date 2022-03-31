@@ -12,15 +12,6 @@ public static class Loader
 #endif    
     }
 
-    public static GameObject LoadPanel(string prefabName)
-    {
-#if UNITY_EDITOR
-        return FakeAssetTools.Load<GameObject>("prefab.ab", prefabName, "Panels");
-#else
-        return AssetTools.LoadAsset<GameObject>("prefab.ab", prefabName);
-#endif    
-    }
-
     public static Sprite LoadSprite(string spriteName)
     {
 #if UNITY_EDITOR
